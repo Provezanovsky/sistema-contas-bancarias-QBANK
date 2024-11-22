@@ -17,7 +17,7 @@ Este é um sistema backend para gerenciar contas bancárias. Ele foi desenvolvid
 
 ## Tecnologias Utilizadas
 
-- **Java 17**: Linguagem de programação principal.
+- **Java 23**: Linguagem de programação principal.
 - **Spring Boot 3.4.0**: Framework para desenvolvimento do backend.
 - **H2 Database**: Banco de dados em memória para desenvolvimento e testes.
 - **Lombok**: Biblioteca para reduzir código boilerplate.
@@ -42,7 +42,7 @@ com.qbank.modulo_contas
 
 ### Pré-requisitos
 
-- **Java 17** ou superior instalado no sistema.
+- **Java 23** ou superior instalado no sistema.
 - **Maven** instalado para gerenciar dependências.
 
 ### Passos para Executar
