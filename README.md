@@ -131,15 +131,6 @@ A aplicação usa o H2 Database em memória para desenvolvimento. Para acessar o
 
 ---
 
-## Próximos Passos
-
-1. Adicionar autenticação e autorização usando Spring Security.
-2. Conectar o sistema a um banco de dados real (MySQL ou PostgreSQL).
-3. Criar um frontend (site ou aplicativo móvel) para interagir com o backend.
-4. Implementar testes automatizados com JUnit.
-
----
-
 ## Contribuição
 
 Sinta-se à vontade para contribuir com melhorias, relatando problemas ou enviando pull requests.
