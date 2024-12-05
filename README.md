@@ -7,9 +7,9 @@ Este é um sistema backend para gerenciar contas bancárias. Ele foi desenvolvid
 
 ## Integrantes do Projeto
 
-Maria Eduarda Dias de Morais - RA: 12316128
-Rian Douglas Soares Santos - RA: 12316544
-Rafael Magalhães Rocha Provezano de Castro - RA: 123113216
+- Maria Eduarda Dias de Morais - RA: 12316128
+- Rian Douglas Soares Santos - RA: 12316544
+- Rafael Magalhães Rocha Provezano de Castro - RA: 123113216
 
 ---
 
