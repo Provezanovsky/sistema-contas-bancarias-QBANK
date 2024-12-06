@@ -1,0 +1,30 @@
+name: Java CI with Maven
+
+# Quando o workflow será disparado
+on:
+  push:  # Executa ao fazer push na branch main
+    branches:
+      - main
+  pull_request:  # Executa ao criar PR para a branch main
+    branches:
+      - main
+
+# Definindo os jobs
+jobs:
+  build:  # Nome do job
+    runs-on: ubuntu-latest  # Sistema operacional do runner
+
+    steps:
+      # 1. Fazer checkout do código
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Configurar o JDK
+      - name: Setup JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'  # Ajuste conforme o JDK que seu projeto usa
+
+      # 3. Rodar os comandos Maven
+      - name: Build with Maven
+        run: mvn clean install
